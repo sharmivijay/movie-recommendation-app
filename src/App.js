@@ -4,17 +4,20 @@ import "./styles.css";
 export default function App() {
   const animationList = [
     { name: "Big Hero 6", rating: "10/10" },
-    { name: "Minion", rating: "9/10" }
+    { name: "Minion", rating: "9/10" },
+    { name: "Coco", rating: "8/10" }
   ];
 
   const fantasyList = [
     { name: "Harry Potter Series", rating: "10/10" },
-    { name: "Night At the Museum", rating: "7/10" }
+    { name: "Night At the Museum", rating: "7/10" },
+    { name: "Aladdin", rating: "7/10" }
   ];
 
   const comedyList = [
     { name: "Robin-B-Hood", rating: "10/10" },
-    { name: "Monster Hunt", rating: "9/10" }
+    { name: "Monster Hunt", rating: "9/10" },
+    { name:"The Boss Baby", rating:"8/10"}
   ];
 
   var [movies, setMovies] = useState(animationList);
